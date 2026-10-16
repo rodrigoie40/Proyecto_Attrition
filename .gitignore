@@ -1,0 +1,24 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+# Archivos temporales de Python y Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# Configuración local del editor
+.vscode/
+# Credenciales y secretos
+.env
+.env.*
+!.env.example
+kaggle.json
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+# Modelos binarios: se regeneran ejecutando el notebook
+models/*.joblib
+models/*.keras
+# Datos descargados desde Kaggle
+data/*.csv
+data/*.zip

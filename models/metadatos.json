@@ -1,0 +1,50 @@
+{
+  "configuracion_ml": {
+    "modelo": "Logística baseline",
+    "umbral": 0.37,
+    "criterio": "Mayor F1 medio CV entre configuraciones con mejora de Recall de al menos 8 puntos porcentuales",
+    "random_state": 42
+  },
+  "columnas_entrada": [
+    "Age",
+    "BusinessTravel",
+    "DailyRate",
+    "Department",
+    "DistanceFromHome",
+    "Education",
+    "EducationField",
+    "EnvironmentSatisfaction",
+    "Gender",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobRole",
+    "JobSatisfaction",
+    "MaritalStatus",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "OverTime",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager"
+  ],
+  "columnas_excluidas": [
+    "EmployeeCount",
+    "Over18",
+    "StandardHours",
+    "EmployeeNumber"
+  ],
+  "umbral_dnn": 0.5,
+  "mejor_epoca_dnn_early": 15,
+  "mejor_epoca_dnn_dropout": 33,
+  "alcance": "Ejercicio académico con datos ficticios. No validado para decisiones laborales."
+}
